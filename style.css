@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* ------------------------------------body styling start---------------------------------------> */
+body{
+background-image: url(/assets/window\ 11\ background.jpg);
+background-size: cover;
+overflow: hidden;
+height: 100vh;
+}
+
+/* ------------------------------------body styling end----------------------------------------> */
+
+/* ------------------------------------taskbar styling strat-----------------------------------> */
+.taskbar{
+background-color: #f3f3f3;
+width: 100%;
+position: absolute;
+bottom: 0;
+display: flex;
+justify-content: center;
+}
+/* -----------------------------------taskbar styling end---------------------------------------> */
+/* -----------------------------------right is the classs name of an iamge .strat here-----------> */
+.right{
+justify-self: flex-end;
+position: absolute;
+right: 0;
+margin: 6px 0;
+height: 85%;
+}
+
+/* ------------------------------------------right end -------------------------------------------> */
+/* ---------------------------------------- strat menu styling strat------------------------------> */
+.stratmenu{
+position: absolute;
+/* bottom: 50px; */
+bottom: -650px;
+width: 100%;
+text-align: center;
+transition: all 0.3s ease-in;
+
+}
+
+.stratmenu img{
+border-radius: 8px;
+
+}
+/* ------------------------------------------strat menu styling end--------------------------------- */
